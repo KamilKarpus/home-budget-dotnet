@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HB", "HB\HB.csproj", "{A5D86AE0-3496-4FC5-B191-B7AF2F7BA32D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{E52FA15D-B2AE-4087-9EE5-3DF7C484D853}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{85D727A8-3CEB-47E8-9136-6620824F1800}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HB.Core.Domain", "Modules\Core\HB.Core.Domain\HB.Core.Domain.csproj", "{7284464D-0E14-4F81-93FA-2D0BDE8C7F03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{21525EDD-D79F-4B20-9257-3021D5ED9252}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HB.BuildingBlocks.Domain", "BuildingBlocks\HB.BuildingBlocks.Domain\HB.BuildingBlocks.Domain.csproj", "{13C8DBA7-7DD6-4EA7-9A4D-B7B7CEA7B564}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HB.BuildingBlocks.Infrastructure", "BuildingBlocks\HB.BuildingBlocks.Infrastructure\HB.BuildingBlocks.Infrastructure.csproj", "{CB6E65A7-B712-4AFB-B790-89C07A42AF32}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HB.Core.Infrastructure", "Modules\Core\HB.Core.Infrastructure\HB.Core.Infrastructure.csproj", "{EAF43489-4641-44AF-89C9-C003588BC463}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5D86AE0-3496-4FC5-B191-B7AF2F7BA32D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5D86AE0-3496-4FC5-B191-B7AF2F7BA32D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5D86AE0-3496-4FC5-B191-B7AF2F7BA32D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5D86AE0-3496-4FC5-B191-B7AF2F7BA32D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7284464D-0E14-4F81-93FA-2D0BDE8C7F03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7284464D-0E14-4F81-93FA-2D0BDE8C7F03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7284464D-0E14-4F81-93FA-2D0BDE8C7F03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7284464D-0E14-4F81-93FA-2D0BDE8C7F03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13C8DBA7-7DD6-4EA7-9A4D-B7B7CEA7B564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13C8DBA7-7DD6-4EA7-9A4D-B7B7CEA7B564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13C8DBA7-7DD6-4EA7-9A4D-B7B7CEA7B564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13C8DBA7-7DD6-4EA7-9A4D-B7B7CEA7B564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB6E65A7-B712-4AFB-B790-89C07A42AF32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB6E65A7-B712-4AFB-B790-89C07A42AF32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB6E65A7-B712-4AFB-B790-89C07A42AF32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB6E65A7-B712-4AFB-B790-89C07A42AF32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAF43489-4641-44AF-89C9-C003588BC463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAF43489-4641-44AF-89C9-C003588BC463}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAF43489-4641-44AF-89C9-C003588BC463}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAF43489-4641-44AF-89C9-C003588BC463}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{85D727A8-3CEB-47E8-9136-6620824F1800} = {E52FA15D-B2AE-4087-9EE5-3DF7C484D853}
+		{7284464D-0E14-4F81-93FA-2D0BDE8C7F03} = {85D727A8-3CEB-47E8-9136-6620824F1800}
+		{13C8DBA7-7DD6-4EA7-9A4D-B7B7CEA7B564} = {21525EDD-D79F-4B20-9257-3021D5ED9252}
+		{CB6E65A7-B712-4AFB-B790-89C07A42AF32} = {21525EDD-D79F-4B20-9257-3021D5ED9252}
+		{EAF43489-4641-44AF-89C9-C003588BC463} = {85D727A8-3CEB-47E8-9136-6620824F1800}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C22EFA0F-E207-48BC-8529-3CAA587CF791}
+	EndGlobalSection
+EndGlobal
