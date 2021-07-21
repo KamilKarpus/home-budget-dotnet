@@ -5,7 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Configuration\" />
+    <PackageReference Include="Autofac" Version="6.2.0" />
+    <PackageReference Include="MediatR" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\BuildingBlocks\HB.BuildingBlocks.Infrastructure\HB.BuildingBlocks.Infrastructure.csproj" />
+    <ProjectReference Include="..\HB.Core.Application\HB.Core.Application.csproj" />
   </ItemGroup>
 
 </Project>
